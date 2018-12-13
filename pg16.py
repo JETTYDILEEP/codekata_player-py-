@@ -1,15 +1,15 @@
-def count(str):
+def count(s):
 	(max,c)=(-1,0)
 	r=[]
-	for i in range(len(str)):
-		if str[i] in r:
+	for i in range(len(s)):
+		if s[i] in r:
 			continue
-		r.append(str[i])
-		for j in range(len(str)):
-			if str[i]==str[j] :
+		r.append(s[i])
+		for j in range(len(s)):
+			if s[i]==s[j] :
 				c=c+1
 		if c==1:
-			print(str[i])
+			print(s[i])
 		c=0
 def main():
 	try:
