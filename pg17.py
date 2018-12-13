@@ -1,6 +1,7 @@
 m,n = map(int,input().split())
-x=max(m,n)
+z=max(m,n)
+x=z
 y = min(m,n)
 while(x%y!=0):
-  x+=x
+  x+=z
 print(x)    
