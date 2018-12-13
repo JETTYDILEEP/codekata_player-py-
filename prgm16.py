@@ -13,11 +13,11 @@ def count(str):
 		c=0
 def main():
 	try:
-		n=int(input())
-		l=[]
+		a=int(input())
+		m=[]
 		for i in range(n):
-			l.append(int(input()))
-		count(l)
+			m.append(int(input()))
+		count(m)
 	except:
 		print('invalid')
 main()
