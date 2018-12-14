@@ -4,7 +4,7 @@ try:
     c=0
     a=[]
     while(v%2==0):
-        v = int(n/2)
+        v = int(v/2)
         c+=1
     if(c>0):
         c=0
@@ -15,7 +15,7 @@ try:
             c+=1
         if(c>0):
             c=0
-            print(i,end= " ")
+            print(i,end= "")
     if v>2:
         print(v,end=" ")    
 except:
