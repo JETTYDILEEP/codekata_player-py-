@@ -17,6 +17,6 @@ try:
             c=0
             print(i,end= "")
     if v>2:
-        print(v,end=" ")    
+        print(v,end= "")    
 except:
     print("Invalid Input")
