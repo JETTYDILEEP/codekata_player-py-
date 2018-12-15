@@ -3,8 +3,8 @@ def main():
   l=[]
   for i in s:
     n=ord(i)+3
-    str=chr(n)
-    l.append(str)
+    st=chr(n)
+    l.append(st)
   print(''.join(l))  
 
 main()
