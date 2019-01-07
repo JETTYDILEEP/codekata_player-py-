@@ -1,5 +1,5 @@
 def main(l):
-  n=' '
+  n=''
   for i in l:
     if(i.isupper()):
       n=n+i.lower()
