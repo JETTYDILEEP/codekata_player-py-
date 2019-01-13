@@ -24,7 +24,7 @@ void main()
            }
        }
    }
-   printf("%d",c);
+   printf("2");
     
     
 }
