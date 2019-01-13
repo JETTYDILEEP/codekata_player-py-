@@ -2,9 +2,9 @@ def func(s,v):
   l=[int(x) for x in input().split()]
   if(s==len(l)):
       if v in l:
-        return 'yes'
+        return 'Yes'
       else:
-        return 'no' 
+        return 'No' 
   else:
     print('invalid list')
   
