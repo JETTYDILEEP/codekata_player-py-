@@ -1,4 +1,5 @@
 def nonrepeat(n):
+  n=n.lower()
   l=[]
   v=''
   for i in n:
