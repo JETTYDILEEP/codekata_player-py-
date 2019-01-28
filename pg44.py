@@ -1,23 +1,19 @@
-def leftrotate(arr,d,n):
-  for i in range(d):
-    operation(arr,n)
-
-def operation(arr,n):
-  temp=arr[0]
-  for i in range(n-1):
-    arr[i]=arr[i+1]
-  arr[n-1]=temp
-
-def printarray(arr,n):
-  for i in range(n):
-    print("%s"%a[i],end='')
-
-
-
+def rightRotate(lists, num): 
+    output_list = [] 
+      
+    for item in range(len(lists) - num, len(lists)): 
+        output_list.append(lists[item]) 
+      
+         
+    for item in range(0, len(lists) - num):  
+        output_list.append(lists[item]) 
+          
+    return ''.join(output_list)
+  
+ 
 s,times=input().split()
-times=int(times)
-a=list(s)
-size=len(s)
+rotate_num=int(times)
+list_1=list(s)
+  
+print(rightRotate(list_1, rotate_num)) 
 
-leftrotate(a,times,size)
-printarray(a,size)
