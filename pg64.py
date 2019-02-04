@@ -7,4 +7,5 @@ if(len(l)==n):
       t.append(l[i])
     else:
       continue
+t.sort()
 print(*t,sep=' ')    
