@@ -1,9 +1,11 @@
 n=int(input())
-l1=input().split(' ')
-l2=input().split(' ')
+l1=[int(x) for x in input().split()]
+l2=[int(x) for x in input().split()]
 s=[]
-for i in l1:
-    if(i in l2):
+if(len(l1)==n and len(l2)==n):
+  for i in l2:
+    if(i in l1):
         s.append(i)
-s=' '.join(s)
-print(s)
+
+
+print(*s,sep=' ')
