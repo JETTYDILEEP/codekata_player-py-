@@ -8,5 +8,5 @@ class program:
           t=i
     print(t)  
 
-  n,k=map(int,input().split())
-  fun(n,k)
+  m,k=map(int,input().split())
+  fun(m,k)
