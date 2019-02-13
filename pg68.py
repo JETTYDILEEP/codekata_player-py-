@@ -1,6 +1,6 @@
 n=int(input())
 l=[int(x) for x in input().split()]
-c=1
+c=0
 if(n==len(l)):
   for i in range(n):
 	  for j in range(i+1,n):
