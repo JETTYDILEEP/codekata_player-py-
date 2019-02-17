@@ -1,6 +1,6 @@
 class Bitonic:
   def ope(N,l,K):
-    for i in range(0,N-1):
+    for i in range(0,N):
       if(l[i]==K): 
         print(i+1)
         break
