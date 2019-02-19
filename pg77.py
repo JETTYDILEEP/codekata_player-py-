@@ -5,6 +5,8 @@ if(n==len(l)):
   for i in range(0,n-1):
     if(l[i]+1==l[i+1]):
       c=c+1
+    else:
+      break
 
 
 if(c>1):
