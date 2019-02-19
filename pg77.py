@@ -12,6 +12,6 @@ class incarr:
       l1.append(c)
     print(max(l1))
 
-N=int(input())
+M=int(input())
 L=[int(x) for x in input().split()]
-incarr.fun(N,L)
+incarr.fun(M,L)
