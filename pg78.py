@@ -1,7 +1,7 @@
 class pg78:
   def fun(m,n,l1,l2):
     if(m==len(l1) and n==len(l2)):
-      for i in range(0,n-1):
+      for i in range(0,n):
         l1.append(l2[i])
       l1.sort()
       print(*l1,sep=' ')
