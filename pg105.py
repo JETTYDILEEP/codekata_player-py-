@@ -9,7 +9,7 @@ for i in range(n):
     if l[p]>l[j]:
 		    p=j
   if p!=i:
-  	t=l[i]
+  	c=l[i]
   	l[i]=l[p]
-  	l[p]=t
+  	l[p]=c
   print(d[i]+1,end=" ")
