@@ -3,8 +3,8 @@ class pg115:
     s=list(s)
     m=list(m)
     if(len(s)>1):
-      s[len(s)-1]=m[0]
-      for i in range(1,len(m)):
+      #s[len(s)-1]=m[0]
+      for i in range(0,len(m)):
         s.append(m[i])
 
       print(*s,sep='')
