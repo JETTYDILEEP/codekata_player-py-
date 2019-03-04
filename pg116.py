@@ -3,18 +3,17 @@ class pg116:
     tl,t=[],[]
     if(n==len(l)):
       for i in range(0,n):
-        if(l[i] not in tl):
+        if((l.count(l[i])>1) and (l[i] not in t)):
+          t.append(l[i])
+        elif((l.count(l[i])==1) and (l[i] not in tl)):
           tl.append(l[i])
-    for i in range(0,len(tl)):
-      if(l.count(tl[i])>1):
+      tl.sort() 
+      tl.reverse()  
+      t.sort()
+      t.reverse()
+      for i in range(0,len(tl)):
         t.append(tl[i])
-
-    t.sort()
-    t.reverse()
-    for i in range(0,len(tl)):
-      if(tl[i] not in t):
-        t.append(tl[i])
-
+    #print(tl)
     print(*t,sep=' ')
 
 n=int(input())
