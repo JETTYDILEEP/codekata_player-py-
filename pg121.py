@@ -1,12 +1,11 @@
+import math
 m=int(input())
-list=[]
+l=[]
 for i in range(m):
-    list.append(input())
-min=len(list[0])
-pos=0
-for i in range(m):
-    if min>len(list[i]):
-        min=len(list[i])
-        pos=i
-    
-print(list[pos])
+	l.append(input())
+min,word=math.inf,""
+for i in l:
+	if ord(i[0])<min:
+		min=ord(i[0])
+		word=i
+print(word)
