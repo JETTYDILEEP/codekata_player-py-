@@ -2,9 +2,11 @@ class pg129:
   def func(n,l):
     c=0
     if(n==len(l)):
-      for i in range(0,n):
-        c=l[i]-c
-      
+      for i in l:
+        if(i<0):
+          c=i-(-c)
+        else:
+          c=i-c       
       print(c)
 
 n=int(input())
