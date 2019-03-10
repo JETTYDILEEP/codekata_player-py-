@@ -6,7 +6,7 @@ class pg126:
         c=l.count(i)
         if(c<m):
           g.append(i)
-
+    g.sort()
     print(*g,sep=' ')
 
 n,m=map(int,input().split())
