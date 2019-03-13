@@ -4,9 +4,10 @@ for i in range(n):
   l.append(str(input()))
 for i in range(n):
   for j in range(n):
-    if(l[i]==l[j]):
+    if(l[i]==l[j] and i!=j):
       c=c+1
-if(c>=1):
+      
+if(c>1):
   print('yes')
 else:
   print('no') 
