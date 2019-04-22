@@ -3,6 +3,6 @@ def fac(n):
 	for i in range(1,n+1):
 		f=f*i
 	return f
-a,b,c=map(int,input().split())
-x=(fact(a)//fact(b))//fact(c)
+a,b=map(int,input().split())
+x=(fact(a)//fact(b))
 print(x)
