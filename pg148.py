@@ -6,6 +6,6 @@ def fact(n):
 a,b=map(int,input().split())
 x=fact(a)//fact(b)
 if(x==0):
-  print('no')
-else:
   print('yes')
+else:
+  print('no')
