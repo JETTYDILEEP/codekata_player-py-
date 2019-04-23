@@ -12,4 +12,4 @@ class pg151:
       print('no')
 
 n=input()
-pg151.func(n)'
+pg151.func(n)
