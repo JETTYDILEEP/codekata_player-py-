@@ -1,6 +1,6 @@
 a,b=map(int,input().split())
-p=a|b
-x=bin(p)
+v=a|b
+x=bin(v)
 c=0
 for i in range(len(x)):
 	if x[i]=='1':
