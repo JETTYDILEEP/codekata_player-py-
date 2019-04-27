@@ -11,6 +11,7 @@ class pg164:
           return pg164.binarySearch(arr, mid + 1, r, x) 
     
       else: 
+
         return -1
     
 n,x=map(int,input().split())
@@ -18,12 +19,17 @@ arr=[int(x) for x in input().split()]
   
 
 result = pg164.binarySearch(arr, 0, n-1, x) 
-  
+k=[]  
 if result != -1: 
     print(x)
 
 else: 
     for i in range(n):
       if(arr[i]<x):
-        print(arr[i])
-        break
+        k.append(x-arr[i])
+      elif(arr[i]>x):
+        k.append(arr[i]-x)  
+     
+    v=min(k)
+    b=k.index(v)
+    print(arr[b])
