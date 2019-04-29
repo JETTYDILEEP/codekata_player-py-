@@ -6,6 +6,8 @@ class pg181:
                 c=c+3
             elif(n%7==0 and c<n):
                 c=c+7
+            elif(n%10==0 and c<n):
+                c=c+3+7
         if(c==n):
             print('yes')
         else:
