@@ -1,6 +1,6 @@
 class pg186:
     def func(n):
-        if(('vishal' in n and 'sundar'in n)):
+        if(('vishal'or 'Vishal' in n) and ('sundar'or 'Sundar'in n)):
             print('yes')
         else:
             print('no')
