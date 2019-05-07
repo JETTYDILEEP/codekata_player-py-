@@ -6,5 +6,7 @@ class pg194:
             print(a)
         elif(a=='R' and b=='S'):
             print(a)
-a,b=map(str,input().split())
+        else:
+            print('D')
+            a,b=map(str,input().split())
 pg194.func(a,b)
