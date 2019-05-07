@@ -1,4 +1,4 @@
-vclass pg198:
+class pg198:
     def func(n,l):
         print(l.index(max(l))-l.index(min(l)))
             
