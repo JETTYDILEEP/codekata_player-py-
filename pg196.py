@@ -4,8 +4,7 @@ class pg196:
         for i in range(0,n-1):
             if(l.count(l[i])<l.count(l[i+1])):
                 c=l[i]
-            else:
-                c=l[i+1]
+            
         print(c)
 n=int(input())
 l=[int(x) for x in input().split()]
