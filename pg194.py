@@ -8,5 +8,5 @@ class pg194:
             print(a)
         else:
             print('D')
-            a,b=map(str,input().split())
+a,b=map(str,input().split())
 pg194.func(a,b)
