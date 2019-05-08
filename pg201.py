@@ -1,6 +1,6 @@
 def catalan(n): 
    
-    if n <= 1 : 
+    if n <= 2 : 
         return 1 
   
     # Catalan(n) is the sum of catalan(i)*catalan(n-i-1) 
